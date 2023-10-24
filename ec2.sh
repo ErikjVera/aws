@@ -4,5 +4,6 @@ aws ec2 run-instances \
 --instance-type t2.micro \
 --key-name vockey \
 --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=EC2ERIK}]' \
---associate-public-ip-address \  
+--subnet-id subnet-xxxxxxxxxxxxxxxxx \  # Reemplaza con la ID de tu subnet pública
+--associate-public-ip-address \
 --region us-east-1
