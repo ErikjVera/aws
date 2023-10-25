@@ -16,4 +16,4 @@ aws ec2 run-instances \
 --key-name vockey \
 --region us-east-1 \
 --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=EC2ERIK22}]' \
---security-group-ids $AWS_ID_GrupoSeguridad_ERIK22
+--security-group-ids $AWS_ID_GrupoSeguridad_EC2ERIK22
