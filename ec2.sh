@@ -6,4 +6,4 @@ aws ec2 run-instances \
 --key-name vockey \
 --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=EC2ERIK}]' \
 --associate-public-ip-address \
-
+--security-group-ids sg-05be8783dceb1eec8 \
