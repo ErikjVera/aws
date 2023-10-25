@@ -13,5 +13,5 @@ aws ec2 run-instances \
 --instance-type t2.micro \
 --region us-east-1 \
 --key-name vockey \
---tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=EC2ERIK}]' \
 --security-group-ids AWS_ID_GrupoSeguridad_EC2ERIK  \
+--tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=EC2ERIK}]' \
