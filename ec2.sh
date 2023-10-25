@@ -4,7 +4,7 @@ aws ec2 run-instances \
 --instance-type t2.micro \
 --key-name vockey \
 --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=EC2ERIK}]' \
---subnet-id subnet-xxxxxxxxxxxxxxxxx \  # Reemplaza con la ID de tu subnet pública
+--subnet-id subnet-053c6279f007c462d \  # Reemplaza con la ID de tu subnet pública
 --associate-public-ip-address \
---security-group-ids vockey \  # Reemplaza con el ID de tu grupo de seguridad vockey
+--security-group-ids sg-05be8783dceb1eec8 \  # Reemplaza con el ID de tu grupo de seguridad vockey
 --region us-east-1
